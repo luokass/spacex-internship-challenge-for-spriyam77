@@ -1,9 +1,10 @@
 .table__container {
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
   width: 1050px;
   height: 676px;
-  margin-left: 500px;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 40px;
 
   /* Nitro White */
@@ -83,7 +84,8 @@
   display: flex;
   flex-direction: row;
   margin-top: 50px;
-  margin-left: 1310px;
+  margin-left: 80rem;
+  margin-right: 30rem;
 }
 .button {
   background-color: white;
@@ -137,7 +139,6 @@
   padding: 4px 12px;
   position: absolute;
   margin-left: 800px;
-  
 }
 
 .column__Failed {
@@ -150,7 +151,6 @@
   border-radius: 20px;
   position: absolute;
   margin-left: 805px;
-  
 }
 
 .column__Upcoming {
