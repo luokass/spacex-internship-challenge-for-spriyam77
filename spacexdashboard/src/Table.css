@@ -1,9 +1,10 @@
 .table__container {
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
   width: 1050px;
   height: 676px;
-  margin-left: 500px;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 40px;
 
   /* Nitro White */
@@ -137,7 +138,6 @@
   padding: 4px 12px;
   position: absolute;
   margin-left: 800px;
-  
 }
 
 .column__Failed {
@@ -150,7 +150,6 @@
   border-radius: 20px;
   position: absolute;
   margin-left: 805px;
-  
 }
 
 .column__Upcoming {
