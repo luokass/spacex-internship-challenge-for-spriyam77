@@ -47,7 +47,7 @@ export const SelectColumnFilter = ({filter,setFilter}) => {
         <select className='filter__dropdown'
           value={filter}
           onChange={e => {
-            setFilter(e.target.value || null)
+            setFilter(e.target.value)
             console.log(e.target.value)
             
           }}

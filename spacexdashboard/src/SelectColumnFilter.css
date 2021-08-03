@@ -1,14 +1,17 @@
 .filter__container {
-  margin-left: 1400px;
+  
   display: flex;
   flex-direction: row;
   z-index: 1;
   margin-top: 40px;
   align-items: baseline;
+  margin-right: 25rem;
+  margin-left: 90rem;
 }
 
 .filter__svg {
-  margin-right: 10px;
+  margin-right: 0.5rem;
+  
 }
 
 .filter__dropdown {
@@ -16,4 +19,6 @@
   border-color: white;
   border-top: white;
   border-left: white;
+  
+
 }
