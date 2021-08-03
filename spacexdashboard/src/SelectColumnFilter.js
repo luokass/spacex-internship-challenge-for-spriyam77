@@ -3,7 +3,7 @@ import './SelectColumnFilter.css'
 
 
 
-export const FormatLaunchSuccess = (status) => {
+/*export const FormatLaunchSuccess = (status) => {
   if (status === null) {
       return 'Upcoming Launches'
   } else if (status) {
@@ -11,7 +11,18 @@ export const FormatLaunchSuccess = (status) => {
   } else {
       return 'Failed Launches'
   }
+}*/
+
+export const FormatLaunchSuccess = (status) => {
+  if (status === true) {
+      return 'Success Launches'
+  } else if (status===false) {
+      return 'False Launches'
+  } else if (status===null) {
+      return 'Upcoming Launches'
+  }
 }
+
 
 
 export const SelectColumnFilter = ({filter,setFilter}) => {
@@ -36,7 +47,7 @@ export const SelectColumnFilter = ({filter,setFilter}) => {
         <select className='filter__dropdown'
           value={filter}
           onChange={e => {
-            setFilter(e.target.value || undefined)
+            setFilter(e.target.value || null)
             console.log(e.target.value)
             
           }}
@@ -45,7 +56,7 @@ export const SelectColumnFilter = ({filter,setFilter}) => {
           {options.map((option, i) => (
             
             <option key={i} value={option}>
-              
+              {console.log(option)}
               {FormatLaunchSuccess(option)}
             </option>
           ))}

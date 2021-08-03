@@ -1,18 +1,19 @@
 .filter__container {
-    margin-left: 1400px;
-    z-index: 1;
-    margin-top: 40px;
-  }
-  
-  .filter__svg {
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-  
-  .filter__dropdown {
-    background-color: white;
-    border-color: white;
-    border-top: white;
-    border-left: white;
-  }
-  
+  margin-left: 1400px;
+  display: flex;
+  flex-direction: row;
+  z-index: 1;
+  margin-top: 40px;
+  align-items: baseline;
+}
+
+.filter__svg {
+  margin-right: 10px;
+}
+
+.filter__dropdown {
+  background-color: white;
+  border-color: white;
+  border-top: white;
+  border-left: white;
+}
