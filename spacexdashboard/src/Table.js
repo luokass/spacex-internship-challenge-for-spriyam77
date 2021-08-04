@@ -10,8 +10,11 @@ import './TableModal.css'
 import {css} from '@emotion/react'
 
 const loaderCSS = css `
-margin-top:200px;
-margin-left:450px;
+margin-top:180px;
+margin-left:auto;
+
+margin-right:auto;
+
 `
 Modal.setAppElement('#root')
 function Table({ columns, data }) {
