@@ -41,8 +41,24 @@
 }
 .modal__header__line1 {
   font-size: small;
+  margin-top: 5px;
 }
 
+.svg__container{
+  display: flex;
+  flex-direction: row;
+  margin-top: 5px;
+  
+}
+
+.image__wikki{
+  width: 18px;
+  height: 18px;
+}
+.image__utube{
+  width: 18px;
+  height: 18px;
+}
 .modal__info__details {
   height: auto;
   align-items: flex-start;
