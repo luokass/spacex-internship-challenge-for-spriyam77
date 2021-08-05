@@ -44,17 +44,21 @@
   margin-top: 5px;
 }
 
-.svg__container{
+.svg__container {
   display: flex;
   flex-direction: row;
   margin-top: 5px;
-  
 }
 
-.modal__icons{
+.modal__icons {
   width: 18px;
   height: 18px;
   margin-right: 6px;
+}
+
+.modal__cross {
+  position: absolute;
+  margin-left: 455px;
 }
 .modal__info__details {
   height: auto;
