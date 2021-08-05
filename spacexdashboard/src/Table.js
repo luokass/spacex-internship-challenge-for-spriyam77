@@ -59,14 +59,14 @@ const ModalContent = () => {
 
         <div className='svg__container'>
       
-          <img className='modal__svg'
+          <img className='modal__icons'
           src='https://www.pinclipart.com/picdir/big/71-713438_nasa-logo-font-nasa-black-and-white-clipart.png'
           />
-          <img className='modal__svg'
+          <img className='modal__icons'
             src='https://cdn.icon-icons.com/icons2/2845/PNG/512/wikipedia_logo_icon_181367.png'
             alt=''
           />
-          <img className='modal__svg'
+          <img className='modal__icons'
             src='data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48ZGVmcz48c3R5bGU+LmNscy0xe2ZpbGw6bm9uZTtzdHJva2U6IzAwMDAwMDtzdHJva2UtbGluZWNhcDpyb3VuZDtzdHJva2UtbGluZWpvaW46cm91bmQ7c3Ryb2tlLXdpZHRoOjNweDt9PC9zdHlsZT48L2RlZnM+PHRpdGxlPkFydGJvYXJkIDY8L3RpdGxlPjxwb2x5Z29uIGNsYXNzPSJjbHMtMSIgcG9pbnRzPSI2Mi41IDUwIDUyLjc1IDU1LjAxIDQzIDYwLjAxIDQzIDUwIDQzIDM5Ljk5IDUyLjc1IDQ0Ljk5IDYyLjUgNTAiPjwvcG9seWdvbj48cmVjdCBjbGFzcz0iY2xzLTEiIHg9IjE3LjUiIHk9IjI3LjUiIHdpZHRoPSI2NSIgaGVpZ2h0PSI0NSIgcng9IjExIiByeT0iMTEiPjwvcmVjdD48L3N2Zz4='
             alt=''
           />
