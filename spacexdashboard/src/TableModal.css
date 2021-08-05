@@ -51,13 +51,10 @@
   
 }
 
-.image__wikki{
+.modal__svg{
   width: 18px;
   height: 18px;
-}
-.image__utube{
-  width: 18px;
-  height: 18px;
+  margin-right: 6px;
 }
 .modal__info__details {
   height: auto;
