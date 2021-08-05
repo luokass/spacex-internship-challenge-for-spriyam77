@@ -75,6 +75,10 @@ const ModalContent = () => {
         
     </div>
     <span className={`modal__${FormatLaunchSuccess(modalInfo.launch_success)}`}>{FormatLaunchSuccess(modalInfo.launch_success)}</span>
+    <svg className='modal__cross' onClick={()=>handleClose()} width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M5.99999 4.82166L10.125 0.696655L11.3033 1.87499L7.17832 5.99999L11.3033 10.125L10.125 11.3033L5.99999 7.17832L1.87499 11.3033L0.696655 10.125L4.82166 5.99999L0.696655 1.87499L1.87499 0.696655L5.99999 4.82166Z" fill="#4B5563"/>
+    </svg>
+
     </div>
     <div className='modal__info__details'>
         <p className='paragraph'>
