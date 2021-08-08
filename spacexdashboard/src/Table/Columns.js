@@ -1,5 +1,5 @@
 import './Column.css'
-import {SelectColumnFilter} from './SelectColumnFilter'
+import {SelectColumnFilter} from './Filter/SelectColumnFilter'
 
 
 
