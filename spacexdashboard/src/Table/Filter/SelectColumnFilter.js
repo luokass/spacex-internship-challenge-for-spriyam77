@@ -17,7 +17,7 @@ export const FormatLaunchSuccess = (status) => {
   if (status === true) {
       return 'Success Launches'
   } else if (status===false) {
-      return 'False Launches'
+      return 'Failed Launches'
   } else if (status===null) {
       return 'Upcoming Launches'
   }
